@@ -8,7 +8,7 @@ Sistema de gestión financiera full-stack diseñado para el control y análisis 
 - **Lenguaje:** Python 3.13
 - **Framework:** Django
 - **Gestión de Paquetes:** [uv](https://github.com/astral-sh/uv) (Fast Python package installer and resolver)
-- **Base de Datos:** PostgreSQL 16
+- **Base de Datos:** PostgreSQL 17
 
 ### Frontend
 - **Framework:** Next.js 16 (React 19)
@@ -25,6 +25,8 @@ Sistema de gestión financiera full-stack diseñado para el control y análisis 
 Finance_system/
 ├── app/                    # Backend Django (Lógica de negocio y API)
 │   └── finance/             # Proyecto Django
+│       ├── finance/          # Configuración del proyecto Django
+│       └── manage.py         # Utilidad de gestión de Django
 ├── mi-app-next/            # Frontend Next.js (Interfaz de usuario)
 ├── src/                    # Módulo raíz de Python (convención uv)
 ├── .env                    # Variables de entorno (No subir al repositorio)
